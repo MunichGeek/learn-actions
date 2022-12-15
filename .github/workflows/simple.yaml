@@ -8,4 +8,4 @@ jobs:
         run: echo "Wow! I am able to echo from Github"
       - name: Run python command
         run: print(f"Sum of 2 and 2 is {2+2}")
-        shell: python
+        shell: pwsh
