@@ -7,5 +7,5 @@ jobs:
       - name: Run a simple echo command
         run: echo "Wow! I am able to echo from Github"
       - name: Run python command
-        run: Directory
+        run: Get-Location
         shell: pwsh
