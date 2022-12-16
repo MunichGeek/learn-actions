@@ -6,6 +6,3 @@ jobs:
     steps:
       - name: Run a simple echo command
         run: echo "Wow! I am able to echo from Github"
-      - name: Run python command
-        run: Get-Location
-        shell: pwsh
