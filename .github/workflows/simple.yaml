@@ -6,5 +6,6 @@ jobs:
     steps:
       - name: Run a simple echo command
         run: |
-          Get-Directory
+          Get-Location
+          Dir
         shell: pwsh
