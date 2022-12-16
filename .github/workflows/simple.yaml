@@ -7,5 +7,5 @@ jobs:
       - name: Run a simple command
         run: |
           Get-Location
-          Get-History
+          Get-ChildItem
         shell: pwsh
