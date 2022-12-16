@@ -7,5 +7,5 @@ jobs:
       - name: Run a simple echo command
         run: |
           Get-Location
-          Dir
+          Get-History
         shell: pwsh
