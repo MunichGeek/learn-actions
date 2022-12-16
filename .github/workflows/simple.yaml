@@ -1,7 +1,7 @@
 name: Super Cool Workflow
 on: push
 jobs:
-  cool_first_job: 
+  cool_first_job:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
