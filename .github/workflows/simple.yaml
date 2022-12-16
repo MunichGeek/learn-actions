@@ -4,7 +4,7 @@ jobs:
   cool_first_job: 
     runs-on: ubuntu-latest
     steps:
-      - name: Run a simple echo command
+      - name: Run a simple command
         run: |
           Get-Location
           Get-History
