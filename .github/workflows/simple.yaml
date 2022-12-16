@@ -6,7 +6,5 @@ jobs:
     steps:
       - name: Run a simple echo command
         run: |
-          sum_var = 2+2
-          for _ in range(10):
-            print(f"Sum of 2 and 2 is {sum_var}")
-        shell: python
+          Get-Directory
+        shell: pwsh
