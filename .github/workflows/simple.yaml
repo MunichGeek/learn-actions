@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Run a simple command
         run: |
-          Get-Location
-          Write-Output "Hello from Powershell!"
-        shell: pwsh
+          for _ in range(5):
+            print(f"Sum of 2 and 2 is {2+2}")
+        shell: python
