@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: Get-Directory
+        run: Get-Location
         shell: pwsh
