@@ -8,5 +8,5 @@ jobs:
         run: |
           import random
           for _ in range(5):
-            print(f"A random integer is {random.randint()}")
+            print(f"A random integer is {random.randint(1, 100)}")
         shell: python
