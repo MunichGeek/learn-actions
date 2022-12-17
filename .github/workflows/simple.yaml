@@ -5,7 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: |
-          for _ in range(5):
-            print(f"Sum of 2 and 2 is {2+2}")
-        shell: python
+        run: Get-Directory
+        shell: pwsh
