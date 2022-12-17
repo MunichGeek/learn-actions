@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: print(f"Sum of 2 and 2 is {2+2}")
-        shell: python
+        run: echo "Wow! We can echo from Github Actions."
