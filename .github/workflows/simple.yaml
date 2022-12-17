@@ -7,5 +7,5 @@ jobs:
       - name: Run a simple command
         run: |
           Get-Location
-          Write-Host "So cool" -ForegroundColor DarkGreen
+          Write-Output "Hello from Powershell!"
         shell: pwsh
