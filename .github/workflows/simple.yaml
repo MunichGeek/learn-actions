@@ -5,7 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: |
-          Get-Location
-          Get-Help Get-Location
-        shell: pwsh
+        run: echo "Wow! We can echo from Github Actions."
