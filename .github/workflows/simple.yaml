@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: Get-Location
+        run: |
+          Get-Location
+          Write-Host "So cool" -ForegroundColor DarkGreen
         shell: pwsh
