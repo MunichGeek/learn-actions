@@ -5,6 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: |
-          echo "Output of ls is:"
-          ls -al
+        run: echo "Wow! I am able to echo from Github Actions!"
