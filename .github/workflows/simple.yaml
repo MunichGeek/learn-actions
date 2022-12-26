@@ -5,7 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a simple command
-        run: |
-          Write-Output "Hello from PowerShell!"
-          Get-Location
-        shell: pwsh
+        run: echo "Wow! I am able to echo from Github Actions!"
