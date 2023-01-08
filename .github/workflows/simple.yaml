@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Step-1
         run: |
-          country="France"
+          export country="France"
           echo "I am in $city, $country, $continent"
         env:
           city: "Berlin"
