@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Step-1
         run: |
-          export country="France"
+          echo "country=France" >> $GITHUB_ENV
           echo "I am in $city, $country, $continent"
         env:
           city: "Berlin"
