@@ -12,5 +12,3 @@ jobs:
         env:
           city: Berlin
         run: echo "I am in $city, $country, $continent"
-      - name: Step-1
-        run: echo "I am in $city, $country, $continent"
