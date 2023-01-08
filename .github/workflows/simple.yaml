@@ -1,11 +1,7 @@
 name: Super Cool Workflow
 on: push
-env:
-  continent: Europe
 jobs:
   cool_first_job:
-    env:
-      country: Germany
     runs-on: ubuntu-latest
     steps:
       - name: Step-1
